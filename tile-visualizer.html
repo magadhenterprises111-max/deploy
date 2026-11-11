@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -61,16 +61,16 @@
   <div class="container">
     <div class="header-inner">
       <a href="index.html" class="brand logo-brand" aria-label="Magadh Enterprises â€” home">
-        <img src="assets/images/branding/logo.png"
+        <picture><source srcset="assets/images/branding/logo-640.webp" type="image/webp"><img src="assets/images/branding/logo.png"
            width="190" height="64"
-           alt="Magadh Enterprises - Tiles, Marble, Granite &amp; Sanitaryware" class="header-logo">
+           alt="Magadh Enterprises - Tiles, Marble, Granite &amp; Sanitaryware" class="header-logo"></picture>
       </a>
 
       <span class="nav-separator" aria-hidden="true"></span>
 
       <nav class="site-nav" aria-label="Primary">
-        <a href="tile-visualizer.html" class="nav-link">Tile Visualizer</a>
-        <a href="index.html#deals" class="nav-link">Deals In</a>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">Brands</a>
         <div class="nav-item has-dropdown">
           <button class="nav-link nav-dropdown-toggle" type="button"
                   aria-expanded="false" aria-controls="products-mega">
@@ -96,7 +96,7 @@
                   <svg class="mega-arrow" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0.6 5h13.2"/><path d="M10.2 1.2 14.4 5l-4.2 3.8"/></svg>
                 </a>
                 <a href="sanitaryware.html" class="mega-item">
-                  <span class="mega-thumb"><img src="assets/images/visual/Bathroom%20Solution.png" alt="" loading="lazy"></span>
+                  <span class="mega-thumb"><picture><source srcset="assets/images/visual/Bathroom%20Solution-1200.webp" type="image/webp"><img src="assets/images/visual/Bathroom%20Solution.png" alt="" loading="lazy"></picture></span>
                   <span class="mega-name">Sanitaryware</span>
                   <svg class="mega-arrow" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0.6 5h13.2"/><path d="M10.2 1.2 14.4 5l-4.2 3.8"/></svg>
                 </a>
@@ -126,8 +126,9 @@
             </div>
           </div>
         </div>
-        <a href="index.html#what-we-do" class="nav-link">Gallery</a>
-        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#what-we-do" class="nav-link">Solutions</a>
+        <a href="tile-visualizer.html" class="nav-link" aria-current="page">Tile Visualizer</a>
+        <a href="index.html#trust" class="nav-link">About</a>
         <a href="index.html#contact" class="nav-link">Contact</a>
       </nav>
 
@@ -152,10 +153,11 @@
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
   </button>
   <div class="mobile-nav-content">
-    <a href="tile-visualizer.html" class="mobile-link">Tile Visualizer</a>
-    <a href="index.html#deals" class="mobile-link">Deals In</a>
-    <div class="mobile-nav-group">
-      <button class="mobile-link mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-products">
+    <a href="index.html" class="mobile-link">Home</a>
+    <a href="index.html#about" class="mobile-link">Brands</a>
+<div class="mobile-nav-group">
+      <button class="mobile-link mobile-nav-toggle" type="button" aria-expanded="false"
+aria-controls="mobile-products">
         Products
         <svg class="mobile-nav-caret" width="12" height="8" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 1l5 5 5-5"/></svg>
       </button>
@@ -170,8 +172,9 @@
         <a href="tile-care.html" class="mobile-sublink">Tile Care &amp; Accessories</a>
       </div>
     </div>
-    <a href="index.html#what-we-do" class="mobile-link">Gallery</a>
-    <a href="index.html#about" class="mobile-link">About</a>
+    <a href="index.html#what-we-do" class="mobile-link">Solutions</a>
+    <a href="tile-visualizer.html" class="mobile-link" aria-current="page">Tile Visualizer</a>
+    <a href="index.html#trust" class="mobile-link">About</a>
     <a href="index.html#contact" class="mobile-link">Contact</a>
   </div>
 </nav>
@@ -329,7 +332,8 @@
       <p class="t-body">Get the current price, availability and the exact size and finish options on WhatsApp &mdash; or call us and we will talk it through.</p>
       <p class="tv-enquiry-selection" id="tv-enquiry-selection">&nbsp;</p>
       <div class="cta-buttons">
-        <a href="https://wa.me/919661555733" id="tv-whatsapp" data-wa="product" data-product="Tiles Range" class="btn btn-light" rel="noopener">Get Price on WhatsApp</a>
+<a href="https://wa.me/919661555733" id="tv-whatsapp" data-wa="product"
+data-product="Tiles Range" class="btn btn-light" rel="noopener" aria-label="Enquire about Tiles Range on WhatsApp">Get Price on WhatsApp</a>
         <a href="tel:+919661555733" class="btn btn-light">Call Us</a>
         <a href="index.html#find-us" class="btn btn-light">Visit Showroom</a>
       </div>
@@ -351,13 +355,12 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="assets/images/branding/logo.png" width="190" height="64"
-             alt="Magadh Enterprises - Tiles, Marble, Granite &amp; Sanitaryware" class="footer-logo" loading="lazy" decoding="async">
+        <picture><source srcset="assets/images/branding/logo-640.webp" type="image/webp"><img src="assets/images/branding/logo.png" width="190" height="64"
+             alt="Magadh Enterprises - Tiles, Marble, Granite &amp; Sanitaryware" class="footer-logo" loading="lazy" decoding="async"></picture>
         <p class="brand-desc">Building materials and finishing solutions &mdash; Nagmatiya Road, Gaya, Bihar.</p>
         <p class="footer-tagline">Tiles &middot; Marble<br>Granite &middot; Sanitaryware</p>
       </div>
-      <div class="footer-col">
-        <h3>Products</h3>
+      <div class="footer-col footer-col--links"><div class="footer-group"><h3>Products</h3>
         <ul>
           <li><a href="index.html#deals">Tiles</a></li>
           <li><a href="index.html#deals">Marble</a></li>
@@ -365,10 +368,7 @@
           <li><a href="index.html#deals">Sanitaryware</a></li>
           <li><a href="tile-adhesives.html">MYK Laticrete</a></li>
           <li><a href="waterproofing.html">MYK Arment</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Navigate</h3>
+        </ul></div><div class="footer-group"><h3>Navigate</h3>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html#about">About</a></li>
@@ -380,24 +380,25 @@
         <h3>Contact</h3>
         <ul>
           <li><a href="tel:+919661555733">+91&nbsp;96615&nbsp;55733</a></li>
-          <li><a href="https://wa.me/919661555733" data-wa="visit" rel="noopener">WhatsApp</a></li>
+<li><a href="https://wa.me/919661555733" data-wa="visit"
+rel="noopener" aria-label="Contact Magadh Enterprises on WhatsApp">WhatsApp</a></li>
         </ul>
         <h3 class="spaced">Follow Us</h3>
         <div class="social-links">
           <a href="https://www.facebook.com/profile.php?id=61593836797469" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-            <img src="assets/images/social/facebook.png" alt="Facebook" width="28" height="28" loading="lazy" decoding="async">
+            <picture><source srcset="assets/images/social/facebook-168.webp" type="image/webp"><img src="assets/images/social/facebook.png" alt="" width="28" height="28" loading="lazy" decoding="async"></picture>
           </a>
           <a href="https://www.instagram.com/magadh.home/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <img src="assets/images/social/instagram.png" alt="Instagram" width="28" height="28" loading="lazy" decoding="async">
+            <picture><source srcset="assets/images/social/instagram-168.webp" type="image/webp"><img src="assets/images/social/instagram.png" alt="" width="28" height="28" loading="lazy" decoding="async"></picture>
           </a>
           <a href="https://www.youtube.com/channel/UCH4h26FJVHBCyzo5ydk17tg" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-            <img src="assets/images/social/youtube.png" alt="YouTube" width="28" height="28" loading="lazy" decoding="async">
+            <picture><source srcset="assets/images/social/youtube-168.webp" type="image/webp"><img src="assets/images/social/youtube.png" alt="" width="28" height="28" loading="lazy" decoding="async"></picture>
           </a>
           <a href="https://wa.me/919661555733" data-wa="visit" rel="noopener noreferrer" aria-label="WhatsApp">
-            <img src="assets/images/social/whatsapp.png" alt="WhatsApp" width="28" height="28" loading="lazy" decoding="async">
+            <picture><source srcset="assets/images/social/whatsapp-168.webp" type="image/webp"><img src="assets/images/social/whatsapp.png" alt="" width="28" height="28" loading="lazy" decoding="async"></picture>
           </a>
           <a href="tel:+919661555733" aria-label="Call us">
-            <img src="assets/images/social/call.png" alt="Call us" width="28" height="28" loading="lazy" decoding="async">
+            <picture><source srcset="assets/images/social/call-168.webp" type="image/webp"><img src="assets/images/social/call.png" alt="" width="28" height="28" loading="lazy" decoding="async"></picture>
           </a>
         </div>
       </div>
